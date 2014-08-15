@@ -6,7 +6,6 @@ from requests.exceptions import HTTPError
 r = None
 
 def login():
-
     global r
     user_agent=('undelete bot version 0.2 by /u/IAmAnAnonymousCoward')
     user='*****'
@@ -245,7 +244,6 @@ def undelete_selftext(bot_submission,selftext):
     # post comments
     parent_comment = None
     for comment in comments:
-        print len(comment)
         if parent_comment == None:
             parent_comment = bot_submission.add_comment(comment)
         else:
