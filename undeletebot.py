@@ -73,8 +73,6 @@ def find_removed_submissions(new_submissions,old_submissions,old_false_alarm_sub
             false_alarm_submissions.append(missing_submission)
         else:
             pass
-
-    # removed_submissions, false_alarm_submissions = confirm_removal(removed_submissions)
     
     # add false alarms to new_submissions, because we know that they should be there
     # otherwise there is a risk of false negatives in the next cycle because a
