@@ -1,4 +1,4 @@
-undelete-bot
+UndeleteBot
 ============
 
 This is the bot that powers [/r/undelete](http://www.reddit.com/r/undelete).
